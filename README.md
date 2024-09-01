@@ -1,2 +1,0 @@
-# try
-markdownlint is an extension to VS Code that encourages standards and consistency for Markdown. It is available directly from the VisualStudio marketplace or via the Docs Authoring Pack extension.

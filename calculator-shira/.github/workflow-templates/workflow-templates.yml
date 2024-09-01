@@ -1,0 +1,23 @@
+name: GitHub Workflow
+
+run-name: Calculator app workflow
+'on':
+  workflow_dispatch: null
+  push:
+    branches:
+      - feature/calculator-assignment-shira
+
+jobs:
+  check-python-and-react-application:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Beyond my branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/calculator-assignment-shira
+
+      # - name: Build python docker image
+      #   run: docker build -t python-app .
+      #   working-directory: ./Calculator-project/client
